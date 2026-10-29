@@ -1,62 +1,75 @@
-# Web Portofolio Mahasiswa Semester 1 🚀
+# 🌐 Personal Portfolio — Matthew Fernandes Hia
 
-Template website portofolio modern bertema **Dark Mode** yang dirancang khusus untuk mahasiswa tingkat awal / semester 1. Ringan, cepat, responsif di HP & Laptop, serta mudah dikustomisasi tanpa perlu instalasi tools yang rumit.
+Selamat datang di repositori website portofolio pribadi saya! Website ini dirancang dengan gaya **Modern Dark Mode**, responsif di berbagai perangkat, serta ringan menggunakan HTML5, Tailwind CSS, dan JavaScript murni.
 
 ---
 
-## 📁 Struktur Berkas
+## 👨‍💻 Tentang Saya
+
+Halo! Saya **Matthew Fernandes Hia**, mahasiswa semester 1 program studi **S1 Teknik Informatika** di **Universitas Negeri Surabaya (UNESA)**.
+
+Saya memiliki ketertarikan mendalam dalam eksplorasi teknologi, rekayasa perangkat lunak (*software engineering*), dan pengembangan antarmuka web yang interaktif. Repositori ini berfungsi sebagai dokumentasi digital dari perjalanan belajar (*learning journey*), keahlian dasar, dan proyek yang saya kembangkan sejak awal masa perkuliahan.
+
+- 🎓 **Pendidikan:** S1 Teknik Informatika — Universitas Negeri Surabaya (UNESA) (2026 – Sekarang)
+- 📍 **Domisili:** Surabaya, Indonesia
+- 🎯 **Fokus Belajar Saat Ini:** Pemrograman Dasar, Algoritma, Matematika Komputasi, HTML/CSS, dan JavaScript Modern
+
+---
+
+## 🛠️ Teknologi & Tools
+
+### Website Portofolio Ini Dibuat Dengan:
+- **HTML5:** Struktur semantik halaman web.
+- **Tailwind CSS (CDN):** Utilitas CSS modern untuk desain dark mode yang fleksibel dan estetis.
+- **JavaScript (Vanilla JS):** Interaktivitas menu responsif, *smooth scroll*, dan penanganan pesan kontak.
+- **Lucide Icons & Google Fonts:** Tipografi Plus Jakarta Sans dan ikon minimalis.
+
+### Keahlian & Perangkat Kerja:
+- **Bahasa & Web:** HTML5, CSS3, JavaScript (ES6), C++ Dasar
+- **Tools & Workflow:** Git, GitHub, Visual Studio Code, Canva
+
+---
+
+## 📂 Struktur Repositori
 
 ```
 web portofolio/
-├── index.html            # Halaman utama portofolio (semua seksi)
+├── index.html            # Berkas utama website portofolio
 ├── assets/
-│   └── js/
-│       └── script.js     # Interaktivitas (menu HP, smooth scroll, form kirim pesan)
-└── README.md             # Panduan pengeditan & publikasi
+│   ├── js/
+│   │   └── script.js     # Skrip interaktivitas (navigasi mobile, notifikasi form)
+│   └── imaj/
+│       └── foto new.png  # Aset foto profil
+└── README.md             # Dokumentasi repositori
 ```
 
 ---
 
-## 🛠️ Cara Menjalankan & Melihat Tampilan Web
+## 🚀 Cara Menjalankan Secara Lokal
 
-1. Cukup klik ganda file [index.html](file:///c:/Users/hafid/Downloads/hia/matt/web%20portofolio/index.html) untuk langsung membukanya di browser (Google Chrome, Edge, Firefox, dll.).
-2. Atau jika menggunakan ekstensi **Live Server** di VS Code: klik kanan pada `index.html` → pilih **"Open with Live Server"**.
-
----
-
-## ✏️ Panduan Kustomisasi Data Diri
-
-Buka file [index.html](file:///c:/Users/hafid/Downloads/hia/matt/web%20portofolio/index.html) di editor teks (seperti VS Code atau Notepad), lalu cari bagian berikut untuk diganti:
-
-1. **Nama & Gelar / Jurusan:**
-   - Cari kata `"Nama Anda"` lalu ubah menjadi nama lengkap Anda.
-   - Sesuaikan nama program studi / jurusan dan nama universitas pada seksi Hero dan Pendidikan.
-2. **Foto Profil:**
-   - Simpan foto Anda di folder baru, misal `assets/img/foto.jpg`.
-   - Ganti placeholder ikon user di seksi Hero dengan tag:
-     ```html
-     <img src="assets/imaj/foto new.png" alt="Foto Profil" class="w-full h-full object-cover rounded-xl">
-     ```
-3. **Akun Media Sosial & Kontak:**
-   - Ubah tautan `https://github.com`, `https://linkedin.com`, dan `https://instagram.com` ke URL profil asli Anda.
-   - Ubah email pada `mailto:emailanda@student.ac.id` dan nomor WhatsApp di bagian kontak.
-4. **Proyek & Karya:**
-   - Tambahkan tugas kuliah atau program latihan mandiri Anda pada seksi `#proyek`.
-   - Perbarui tautan GitHub repositori untuk tiap proyek yang dibuat.
+1. **Clone Repositori:**
+   ```bash
+   git clone https://github.com/Matthewhia/portofolio.git
+   ```
+2. **Masuk ke Direktori Proyek:**
+   ```bash
+   cd portofolio
+   ```
+3. **Buka di Browser:**
+   - Cukup buka file `index.html` langsung di browser favorit Anda, atau
+   - Gunakan ekstensi **Live Server** di VS Code.
 
 ---
 
-## 🌐 Cara Mempublikasikan Gratis ke Internet
+## 📬 Mari Terhubung
 
-### Opsi A: Menggunakan GitHub Pages (Sangat Direkomendasikan untuk Mahasiswa IT)
-1. Buat akun di [GitHub](https://github.com) jika belum punya.
-2. Buat repositori publik baru dengan nama: `username.github.io` atau `portofolio`.
-3. Unggah seluruh file (`index.html`, folder `assets/`, dan `README.md`) ke repositori tersebut.
-4. Masuk ke tab **Settings** → **Pages** → pada *Branch* pilih `main` dan folder `/ (root)` → klik **Save**.
-5. Dalam 1-2 menit, website Anda sudah aktif dan bisa diakses publik melalui tautan `https://username.github.io`!
+Saya sangat terbuka untuk berdiskusi, belajar bersama, maupun menjalin kolaborasi seputar proyek mahasiswa:
 
-### Opsi B: Menggunakan Netlify Drop
-1. Buka [Netlify Drop](https://app.netlify.com/drop).
-2. Tarik (*drag-and-drop*) folder `web portofolio` ini ke browser.
-3. Website akan langsung aktif dalam hitungan detik dengan domain gratis.
+- 💼 **LinkedIn:** [Matthew Fernandes Hia](https://www.linkedin.com/in/matthew-fernandes-hia-75a41b441/)
+- 🐙 **GitHub:** [@Matthewhia](https://github.com/Matthewhia)
+- 📸 **Instagram:** [@matthewhia](https://instagram.com/matthewhia)
+- ✉️ **Email Mahasiswa:** [26051204150@mhs.unesa.ac.id](mailto:26051204150@mhs.unesa.ac.id)
+- 💬 **WhatsApp:** [+62 851-7990-8541](https://wa.me/6285179908541)
 
+---
+*Dibuat dengan antusiasme belajar oleh **Matthew Fernandes Hia** &copy; 2026*
